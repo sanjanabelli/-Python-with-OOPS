@@ -1,0 +1,17 @@
+class Grandparent:
+    def property(self):
+       print("Grandparent has property")
+
+class parent(Grandparent):
+    def house(self):
+       print("parent has a house")
+class child(self):
+     def education(self):
+        print("child is studying")
+
+child = child()
+
+child.property()
+child.house()
+child.education()
+
