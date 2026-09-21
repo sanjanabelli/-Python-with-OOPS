@@ -1,0 +1,22 @@
+class Mobile:
+    def __init__(self):
+        self.brand = "Poco"
+
+        self._color = "Blue"
+
+        self.__password = 5678
+
+        
+    def display(self):
+        print("Brand: ", self.brand)
+        print("Color: ", self._color)
+        print("Password: ", self.__password)
+        
+m1 = Mobile()
+    
+m1.display()
+    
+print("Public:", m1.brand)
+print("Protected:", m1._color)
+
+        
