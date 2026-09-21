@@ -1,0 +1,24 @@
+class Laptop:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+        
+    def display(self):
+        print("Brand:", self.brand)
+        print("price:", self.price)
+       
+    def start(self):
+        print("Laptop is staring")
+        
+    def shutdowm(self):
+        print("Laptop is shuttind down")
+        
+l1 = Laptop("dell",70000)
+
+l1.display()
+l1.start()
+l1.shutdowm()
+    
+    
+
+        
