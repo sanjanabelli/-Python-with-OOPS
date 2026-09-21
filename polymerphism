@@ -1,0 +1,21 @@
+class Bank:
+    def operation(self):
+        print ("Bank provides banking services")
+        
+class SBI(Bank):
+    def operation(self):
+        print("SBI: Despoite and withdraw")
+    
+class HDFC(Bank):
+    def operation (self):
+        print("HDFC: Desposite and withdraw")
+        
+b1 = SBI()
+b1.operation()
+
+b2 = HDFC()
+b2.operation()
+        
+    
+    
+    
