@@ -1,0 +1,14 @@
+class student:
+    def study(self):
+        print ("student is studying")
+        
+class collegestudent(student):
+    def study(self):
+        print("college student is studying")
+        
+s = student()
+s.study
+
+c = collegestudent()
+c.study()
+     
