@@ -1,0 +1,14 @@
+class Student :
+    def __init__(self):
+        self.name = "sanjana"
+        self.age = 18
+    def read(self):
+        print("Reading")
+        
+    def write(self):
+        print("Writing")
+s = Student()
+print (s.name)
+print(s.age)
+s.read
+s.write()
