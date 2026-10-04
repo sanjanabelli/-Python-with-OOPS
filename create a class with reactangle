@@ -1,0 +1,15 @@
+class Rectangle:
+    def __init__(self):
+        self.length = 10
+        self.breadth = 12
+    def area(self):
+        print("Area = ",self.length * self.breadth)
+        
+    def perimeter(self):
+        print("perimeter = ",2 * (self.length + self.breadth))
+
+r = Rectangle()
+print (r.length)
+print(r.breadth)
+r.area()
+r.perimeter()
