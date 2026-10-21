@@ -1,0 +1,16 @@
+abstaction class Shape{
+abstact void draw();
+}
+class Circle extends Shape{
+    void draw(){
+System.out.println("Drawing Circle");
+   }
+}
+public class
+AbstractionDemo {
+   public static void main(String[] args) {
+        shape s = new
+Circle();
+        s.drawm();
+   }
+}
